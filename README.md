@@ -1,5 +1,5 @@
 # C-digo-b-sico
-01. Código de comandos básicos para Linux:
+# 01. Código de comandos básicos para Linux:
    
 1. pwd - Directorio actual
 2. ls - Lista los archivos del directorio
@@ -17,7 +17,7 @@
 14. grep "texto" <archivo> - Busca un texto en un archivo 
 15. history - Muestra la historia de comandos
 
-02. Comandos de información del sistema:
+# 02. Comandos de información del sistema:
 
 16. uname -a - Muestra información del sistema
 17. whoami - Muestra el usuario actual
@@ -30,7 +30,7 @@
 24. kill <proceso> - Termina un proceso
 25. htop - Gestion de procesos interactivos
 
-03. Uso de comandos de gestión:
+# 03. Uso de comandos de gestión:
 
 26. adduser <usuario> - Añade un nuevo usuario
 27. deluser <usuario> - Elimina un usuario
@@ -40,7 +40,7 @@
 31. chmod 777 <archivo> - Cambia los permisos del archivo
 32. chown usuario:grupo <archivo> - Cambia el dueño del archivo
 
-04. Comandos en redes:
+# 04. Comandos en redes:
 
 33. ifconfig - Muestra la interfaz de la red
 34. ip a - Muestra la dirección IP
@@ -54,7 +54,7 @@
 42. dig <dominio> - Obtiene infomacion DNS
 43. nslookup <dominio> - Realiza una busqueda de DNS
 
-05. Comandos de Hacking & Test de Penetración:
+# 05. Comandos de Hacking & Test de Penetración:
 
 44. msfconsole - Inicia Mestasploit
 45. msfvenom - Genera cargas útiles (payloads)
@@ -75,7 +75,7 @@
 60. gobuster dir -u <URL> -w /urs/share/wordlists/dirb/common.txt - Fuerza bruta de la carpeta
 61. wpscan --url <URL> - Escanea vulnerabilidades en WordPress
 
-06. Escalada de Privilegios & Post-Explotaciones:
+#06. Escalada de Privilegios & Post-Explotaciones:
 
 62. sudo -l - Muestr los privilegios de superusuario
 63. sudo su - Cambia a usuario root
@@ -88,14 +88,14 @@
 70. merterpreter> shell - Obterner shell/terminal del sistema
 71. linux-exploit-suggester - Sugiere exploits para escalada de privilegios
 
-07. Cifrado de Archivos & Datos:
+# 07. Cifrado de Archivos & Datos:
 
 72. gpg -c <archivo> - Cifra un archivo
 73. gpg -d <archivo.gpg> - Descifra un archivo
 74. openssl enc -aes-256-cbc -salt -in <archivo> -out <archivo.enc> Cifra usando OpenSSL
 75. openssl enc -d -aes-256-cbc -salt -in <archivo.enc> -out <archivo> - Descifra el archivo
 
-08. Forense & Esteganografía:
+# 08. Forense & Esteganografía:
 
 76. string <archivo> - Extrae los strigns de un archivo
 77. binwalk <archivo> - Analiza binarios
