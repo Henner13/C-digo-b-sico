@@ -2,20 +2,20 @@
 # 01. Código de comandos básicos para Linux:
    
 1.`pwd` - Directorio actual
-2. ls - Lista los archivos del directorio
-3. cd - Cambia de directorio
-4. mkdir <carpeta> - Crea una carpeta
-5. rm <archivo> - Borra un archivo
-6. rmdir -r <carpeta> - Borra una carpeta
-7. cp <archivo> <destino> - Copia archivos
-8. mv <archivo> <destino> - mueve/cambia de nombre archivos
-9. touch <archivo> - Crea un archivo
-10. cat <archivo> - Muestra el contenido de un archivo
-11. nano <archivo> - Editor de archivo Nano
-12. vim <archivo> - Editor de archivo Vim
-13. find / -nombre <archivo> - Busca un archivo
-14. grep "texto" <archivo> - Busca un texto en un archivo 
-15. history - Muestra la historia de comandos
+2. `ls` - Lista los archivos del directorio
+3. `cd` - Cambia de directorio
+4. `mkdir <carpeta>` - Crea una carpeta
+5. `rm <archivo>` - Borra un archivo
+6. `rmdir -r <carpeta>`- Borra una carpeta
+7. `cp <archivo> <destino>` - Copia archivos
+8. `mv <archivo> <destino>` - mueve/cambia de nombre archivos
+9. `touch <archivo>` - Crea un archivo
+10. `cat <archivo>` - Muestra el contenido de un archivo
+11. `nano <archivo>` - Editor de archivo Nano
+12. `vim <archivo>` - Editor de archivo Vim
+13. `find / -nombre <archivo>` - Busca un archivo
+14. `grep "texto" <archivo>` - Busca un texto en un archivo 
+15. `history` - Muestra la historia de comandos
 
 # 02. Comandos de información del sistema:
 
