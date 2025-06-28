@@ -1,7 +1,7 @@
 # C-digo-b-sico
 # 01. Código de comandos básicos para Linux:
    
-1. pwd - Directorio actual
+1.`pwd` - Directorio actual
 2. ls - Lista los archivos del directorio
 3. cd - Cambia de directorio
 4. mkdir <carpeta> - Crea una carpeta
